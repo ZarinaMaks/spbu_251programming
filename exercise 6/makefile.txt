@@ -1,0 +1,10 @@
+all: exercise
+
+exercise: main.o
+	g++ main.o -o hello
+
+main.o: main.cpp
+	g++ -c ./source/main.cpp -I ./headers
+
+clean:
+	rm -rf *.o exercise

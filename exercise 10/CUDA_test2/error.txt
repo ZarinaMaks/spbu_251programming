@@ -1,0 +1,5 @@
+No file "input.txt"
+Please , create a file"input.txt"
+One read:input number
+Two read:input max stepen
+.
